@@ -12,7 +12,7 @@ const App: React.FC = () => {
 
   return (
     <div className="app">
-      <h1>Liste des Événements</h1>
+      <h1>Gestion d'évènements</h1>
       <EventFilters />
       <div className="main-container">
         <div className="event-form-container">

@@ -15,7 +15,7 @@ export const useEventStore = create<EventState>((set) => ({
     {
       id: "1",
       title: "Conférence React",
-      date: "2025-01-10",
+      date: "2025-01-20",
       location: "Paris",
       description: "Une conférence pour les développeurs React.",
     },
