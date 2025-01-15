@@ -1,0 +1,101 @@
+.app {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .event-filters {
+    margin-bottom: 20px;
+  }
+  
+  .event-filters select,
+  .event-filters input {
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  .event-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .event-card .status {
+    font-weight: bold;
+  }
+  
+  .event-card .status.past {
+    color: red;
+  }
+  
+  .event-card .status.upcoming {
+    color: green;
+  }
+  
+  .event-card button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .event-card button:hover {
+    background-color: #ff4500;
+  }
+  
+  .event-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .event-form input,
+  .event-form textarea,
+  .event-form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .event-form input[type="date"] {
+    padding: 8px;
+  }
+  
+  .event-form textarea {
+    resize: vertical;
+  }
+  
+  .event-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .event-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .main-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .event-list-container {
+    flex: 1;
+  }
+  
+  .event-form-container {
+    flex: 1;
+  }
+  
